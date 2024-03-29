@@ -1,0 +1,579 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container_page .blok {
+    position: relative;
+    width: 1200px;
+    height: 893px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.6;
+    background-color: rgb(4, 4, 4);
+   
+}
+
+.Container_page .blok_img {
+    width: 634px;
+    height: 840px;
+    margin-left: 287px;
+}
+
+.Container_page .blok .on {
+    position: absolute;
+    width: 1068px;
+    height: 235px;
+    color: rgb(255, 255, 255);
+    font-family: Bold;
+    font-size: 181px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 5%;
+    text-align: left;
+    text-transform: capitalize;
+    top: 355px;
+    left: 167px;
+}
+
+
+.Container_page .book_table_input {
+    width: 1200px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 225px;
+    background-color: rgb(27, 20, 20);
+    opacity: 0.75;
+
+}
+
+.Container_page .book_table_input .reser {
+    width: 150px;
+    height: 40px;
+    font-family: Medium;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 4%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: 55px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.Container_page .book_table_input .table {
+    width: 350px;
+    height: 85px;
+    color: rgb(220, 202, 135);
+    font-family: Bold;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 4%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: 25px;
+    margin-left: 450px;
+
+}
+
+.Container_page .div3 {
+    width: 950px;
+    height: 70px;
+    display: flex;
+    margin-top: 85px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+
+}
+
+.Container_page .div3 select {
+    width: 285px;
+    height: 40px;
+    margin-top: 10px;
+    color: azure;
+    font-family: Medium;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 130%;
+    letter-spacing: 8%;
+    opacity: 0.8;
+    background-color: rgb(14, 14, 14);
+}
+
+.Container_page .div3 select:hover {
+    background-color: whitesmoke;
+    color: black;
+    opacity: 1;
+}
+
+.Container_page .div3 input {
+    width: 285px;
+    height: 40px;
+    margin-top: 10px;
+    color: azure;
+    font-family: Medium;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 130%;
+    letter-spacing: 8%;
+    opacity: 0.8;
+    background-color: rgb(14, 14, 14);
+}
+
+.Container_page .div3 input:hover {
+    background-color: whitesmoke;
+    color: black;
+    opacity: 1;
+}
+
+.Container_page button {
+    width: 150px;
+    height: 55px;
+    background-color: coral;
+    font-family: Bold, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 550px;
+    border: none;
+    border-radius: 5px;
+
+
+}
+
+.food_div {
+    width: 1200px;
+    height: 900px;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: #040404;
+    justify-content: space-between;
+
+}
+
+.food_div img {
+    width: 524px;
+    height: 700px;
+
+
+}
+
+.food_div .img_svg {
+    width: 523px;
+    height: 700px;
+    margin-top: 130px;
+    box-sizing: border-box;
+
+
+
+
+}
+
+.food_div .drinks {
+    width: 500px;
+
+
+}
+
+.food_div .drinks img {
+    width: 500px;
+    height: 385px;
+    margin-left: 10px;
+    margin-right: 290px;
+
+
+}
+
+.food_div .us-about {
+    width: 123px;
+    height: 30px;
+    font-family: Bold;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #e0d3d3;
+    margin-top: 25px;
+
+
+
+}
+
+.food_div .Drinks {
+    width: 614px;
+    height: 166px;
+    font-family: Bold, sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #DCCA87;
+    margin-top: 50px;
+}
+
+
+
+.food_div .lorem {
+    width: 500px;
+    height: 84px;
+    font-family: Medium, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    margin-top: 12px;
+    color: #AAAAAA;
+
+
+}
+
+
+.food_div .btn_23 {
+    width: 181px;
+    height: 51px;
+    padding: 8px 32px 8px 32px;
+    box-sizing: border-box;
+    background-color: #DCCA87;
+    font-family: Bold, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    margin-top: 55px;
+
+
+}
+
+.Container_page .wide_ranger {
+    width: 1200px;
+    height: 802px;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    /* border: 1px solid yellow; */
+}
+
+.Container_page .wide_ranger .range {
+    width: 280px;
+    height: 30px;
+    font-family: medium, sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
+
+.Container_page .wide_ranger .poison {
+    width: 645px;
+    height: 83px;
+    font-family: medium, sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    margin-top: 35px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #DCCA87;
+}
+
+.Container_page .image_wrap {
+    max-width: 1300px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    /* border: 1px solid red; */
+    margin-top: 80px;
+}
+
+.image_first {
+    width: 410px;
+    height: 600px;
+    margin-right: 16px;
+    opacity: 0.5;
+    border: 1px solid #DCCA87;
+
+}
+
+.image_first2 {
+    width: 410px;
+    height: 600px;
+    margin-right: 16px;
+    opacity: 0.5;
+    border: 1px solid #DCCA87;
+
+
+}
+
+.image_first3 {
+    width: 410px;
+    height: 600px;
+    opacity: 0.5;
+    border: 1px solid #DCCA87;
+
+
+}
+
+
+
+@media screen and (max-width:1200px) {
+    .Container_page .blok {
+        position: relative;
+        width: 95%;
+        margin-left: auto;
+    }
+
+    .Container_page .blok_img {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .Container_page .blok .on {
+        position: absolute;
+        width: 75%;
+        height: auto;
+        font-size: 120px;
+    }
+
+    .Container_page .book_table_input {
+        width: 95%;
+        height: 500px;
+    }
+
+   
+
+    .Container_page .book_table_input .table {
+        width: 45%;
+        margin-left: 35%; 
+    }
+
+
+    .Container_page .div3 {
+        width: 95%;
+    }
+
+
+
+
+    .Container_page .div3 input:hover {
+        background-color: whitesmoke;
+        color: black;
+        opacity: 1;
+    }
+
+    .Container_page button {
+        margin-left: 45%;
+    }
+
+
+
+
+    .food_div {
+        width: 95%;
+    }
+
+    .food_div img {
+        width: 43.6%;
+        height: 700px;
+    }
+
+    .food_div .img_svg {
+        width: 95%;
+        height: 700px;
+    }
+
+    .food_div .drinks {
+        width: 41.6%;
+    }
+
+    .food_div .drinks img {
+        width: 95%;
+    }
+
+
+
+    .food_div .Drinks {
+        width: 95%;
+        font-size: 42px;
+        line-height: 73.2px;
+    }
+
+
+
+    .food_div .lorem {
+        width: 95%;
+    }
+
+
+
+    .Container_page .wide_ranger {
+        width: 95%;
+        /* border: 1px solid yellow; */
+    }
+
+
+
+
+    .Container_page .image_wrap {
+        max-width: 90%;
+        height: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .image_first {
+        width: 30%;
+        height: auto;
+    }
+
+    .image_first2 {
+        width: 30%;
+        height: auto;
+    }
+
+    .image_first3 {
+        width: 30%;
+        height: auto;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width:992px) {
+    .Container_page .blok_img {
+        width: 70%;
+        height: 550px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .Container_page .blok .on {
+        position: absolute;
+        width: 85%;
+        height: auto;
+        font-size: 120px;
+        top: 155px;
+        left: 57px;
+       
+    }
+
+    .Container_page .div3 select {
+        width: 100%;
+        height: 40px;
+        margin-top: 10px;
+    }
+
+
+    .Container_page .div3 input {
+        width: 100%;
+        height: 40px;
+        margin-top: 10px;
+    }
+
+
+    .food_div {
+        height: auto;
+        margin-top: 200px;
+        display: block;
+    }
+
+    .food_div .drinks {
+        width: 95%;
+        margin-top: 40px; 
+    }
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+    .Container_page .book_table_input .table {
+        font-family: medium;
+        font-size: 38px;
+        margin-left: 28%;
+    }
+
+    .Container_page .div3 {
+        height: auto;
+        display: block;
+        margin-top: 85px;
+    }
+
+    .Container_page .book_table_input {
+        height: auto;   
+    }
+
+    .Container_page button {
+        margin-left: 15px;
+    }
+
+    .Container_page .wide_ranger .poison {
+        width: 90%;
+        height: auto;
+        font-size: 50px;
+    }
+
+    .Container_page .wide_ranger {
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .Container_page .blok{
+        height: auto;
+    }
+
+    .Container_page .blok .on {
+        height: auto;
+        font-size: 75px;
+    }
+    .Container_page .book_table_input {
+        margin-top: 125px;
+    }
+    
+
+    .food_div .Drinks {
+        font-size: 32px;
+
+    }
+
+    .food_div .lorem {
+        height: auto;
+    }
+
+}

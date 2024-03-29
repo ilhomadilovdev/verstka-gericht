@@ -1,0 +1,621 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ft {
+    width: 1200;
+    margin-top: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(4, 8, 4);
+}
+
+.ft .newsPanel {
+    width: 796px;
+    height: 314px;
+    margin-top: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    border: 1px solid rgba(220, 202, 135, 0.2);
+    box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+    background: rgb(12, 12, 12);
+    opacity: 0.65;
+}
+
+
+
+.ft .news {
+    width: 104px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Bold, sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 4%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ft .subscribe {
+    width: 776px;
+    height: 83px;
+    color: rgb(220, 202, 135);
+    font-family: medium, sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 3%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 25px;
+}
+
+.ft .never {
+    width: 250px;
+    height: 38px;
+    color: rgb(255, 255, 255);
+    font-family: Open, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 4%;
+    margin-left: 283px;
+}
+
+
+
+form {
+    width: 796px;
+    height: 60px;
+    margin-top: 64px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+form input {
+    width: 600px;
+    height: 60px;
+    background-color: rgb(4, 4, 4);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left: 18.5px;
+    box-sizing: border-box;
+}
+
+form ::placeholder {
+    width: 97px;
+    height: 28px;
+    color: rgb(170, 170, 170);
+}
+
+form button {
+    width: 129px;
+    height: 44px;
+    box-sizing: border-box;
+    border: 1px solid rgb(220, 202, 135);
+    background: rgb(220, 202, 135);
+    color: rgb(12, 12, 12);
+    font-family: Bold;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 175%;
+    letter-spacing: 4%;
+    box-sizing: border-box;
+    padding: 8px 32px 8px 32px;
+    text-align: left;
+}
+
+
+.ft .footer_gericht {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin-top: 253px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(12, 12, 12);
+    opacity: 0.6;
+}
+
+.footer_gericht .contact_us {
+    width: 305px;
+    height: 158px;
+    margin-top: 25px;
+}
+
+.footer_gericht .gericht_us {
+    width: 438px;
+    height: 236px;
+}
+
+
+
+.footer_gericht .us {
+    width: 150px;
+    height: 42px;
+    color: rgb(245, 239, 219);
+    font-family: Bold;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 4%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-left: 77.5px;
+}
+
+.footer_gericht .new_york {
+    width: 305px;
+    height: 28px;
+    color: rgb(170, 170, 170);
+    font-family: Open;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 4%;
+    text-align: left;
+    margin-top: 24px;
+}
+
+
+.footer_gericht .numb1 {
+    width: 144px;
+    height: 56px;
+    margin-top: 8px;
+    margin-left: 80.5px;
+    color: rgb(170, 170, 170);
+    font-family: Open;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 4%;
+    text-align: left;
+}
+
+
+.footer_gericht .gericht_us .gerc {
+    width: 289px;
+    height: 83px;
+    color: rgb(220, 202, 135);
+    font-family: Bold;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 4%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 74.5px;
+}
+
+
+.footer_gericht .gericht_us .best {
+    width: 438px;
+    height: 56px;
+    color: rgb(255, 255, 255);
+    font-family: Open;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 4%;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.footer_gericht ul {
+    width: 104px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-left: 143px;
+    list-style: none;
+}
+
+.messengers .fb1 {
+    width: 10px;
+    height: 20px;
+}
+
+.messengers .twitter1 {
+    width: 22px;
+    height: 20px;
+    margin-left: 22px;
+}
+
+.messengers .instagram1 {
+    width: 20px;
+    height: 20px;
+    margin-left: 22px;
+}
+
+.footer_gericht .working_us {
+    width: 203px;
+    height: 186px;
+    margin-top: 25px;
+}
+
+.footer_gericht .work {
+    width: 203px;
+    height: 42px;
+    color: rgb(245, 239, 219);
+    font-family: Bold;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 4%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.footer_gericht .monday {
+    width: 156px;
+    height: 58px;
+    color: rgb(170, 170, 170);
+    font-family: Open;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 4%;
+    text-align: center;
+    margin-top: 24px;
+    margin-left: 22.5px;
+}
+
+.footer_gericht .saturday {
+    width: 154px;
+    height: 56px;
+    color: rgb(170, 170, 170);
+    font-family: Open;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 4%;
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 22.5px;
+}
+
+
+
+
+@media screen and (max-width:1200px) {
+
+    .ft .footer_gericht {
+        /* display: flex;
+        justify-content: space-between; */
+        width: 95%;
+        /* margin-top: 253px; */
+    }
+
+    .footer_gericht .contact_us {
+        width: 32%;
+        height: auto;
+        margin-top: 25px;
+    }
+
+    .footer_gericht .gericht_us {
+        width: 40%;
+        height: auto;
+    }
+
+    .footer_gericht .working_us {
+        width: 22%;
+        height: auto;
+        margin-top: 25px;
+    }
+
+
+    .footer_gericht .gericht_us .best {
+        width: 85%;
+        height: auto;
+        margin-left: 40px;
+    }
+
+    .footer_gericht .new_york {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width:992px) {
+    .ft {
+        width: 100%;
+    }
+
+    .ft .newsPanel {
+        width: 100%;
+    }
+
+    .ft .subscribe {
+        width: 98%;
+    }
+
+
+    form {
+        width: 98%;
+        margin-top: 64px;
+    }
+
+
+
+    form input {
+        width: 70%;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        margin-left: 18.5px;
+        box-sizing: border-box;
+    }
+
+
+    form button {
+        width: 20%;
+        height: 44px;
+        box-sizing: border-box;
+    }
+
+
+
+    .footer_gericht .gericht_us .gerc {
+        width: 80%;
+        font-size: 50px;
+        font-weight: 700;
+        margin-left: 45.5px;
+    }
+
+    .footer_gericht ul {
+        width: 104px;
+        height: 24px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+        margin-left: 103px;
+    }
+
+    .footer_gericht .work {
+        width: 95%;
+        font-size: 24px;
+        line-height: 120%;
+    }
+
+    .footer_gericht .monday {
+        width: 95%;
+        margin-left: 5.5px;
+    }
+
+    .footer_gericht .saturday {
+        width: 95%;
+        margin-top: 8px;
+        margin-left: 5.5px;
+    
+    }
+
+
+}
+
+
+
+@media screen and (max-width:768px) {
+    .ft {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .ft .newsPanel {
+        width: 100%;
+    }
+
+    .ft .subscribe {
+        width: 98%;
+        font-size: 40px;
+        line-height: 100%;
+    }
+
+    .ft .never {
+        width: 50%;
+        height: 38px;
+        color: rgb(255, 255, 255);
+        font-family: Open, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 175%;
+        letter-spacing: 4%;
+        margin-left: 110px;
+    }
+
+
+
+    form {
+        width: 98%;
+        margin-top: 64px;
+    }
+
+
+
+    form input {
+        width: 70%;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        margin-left: 18.5px;
+        box-sizing: border-box;
+    }
+
+
+
+    form button {
+        width: 20%;
+        height: 44px;
+        font-size: 14px;
+        margin-right: 5px;
+        padding: 8px 28px 8px 28px;
+    }
+
+
+
+
+    .ft .footer_gericht {
+        margin-top: 100px;
+    }
+    
+    .footer_gericht .us {
+        width: 90%;
+        height: 42px;
+        font-size: 28px;
+        letter-spacing: 4%;
+        margin-left: 15.5px;
+    }
+
+    .footer_gericht .new_york {
+        width: 90%;
+        height: auto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 175%;
+        margin-top: 24px;
+    }
+
+    .footer_gericht .numb1 {
+        width: 90%;
+        height: 56px;
+        margin-top: 8px;
+        margin-left: 15.5px;
+        font-size: 16px;
+    }
+
+
+    .footer_gericht .gericht_us .gerc {
+        width: 80%;
+        height: auto;
+        font-size: 30px;
+        margin-left: 20.5px;
+        margin-top: 19px;
+    }
+
+
+    .footer_gericht .gericht_us .best {
+        width: 90%;
+        height: auto;
+        margin-left: 10px;
+        font-size: 16px;
+        margin-top: 32px;
+    }
+
+
+    .footer_gericht ul {
+        width: 70%;
+        height: 24px;
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+
+    .footer_gericht .work {
+        width: 95%;
+        font-size: 24px;
+        line-height: 120%;
+    }
+
+    .footer_gericht .monday {
+        width: 95%;
+        margin-left: 5.5px;
+    }
+
+    .footer_gericht .saturday {
+        width: 95%;
+        margin-top: 8px;
+        margin-left: 5.5px;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+
+
+    form button {
+        width: 20%;
+        height: 44px;
+        font-size: 12px;
+        margin-right: 5px;
+        padding: 8px 28px 8px 5px;
+    }
+
+
+    .footer_gericht .us {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .footer_gericht .new_york {
+        font-size: 12px;
+        line-height: 155%;
+    }
+
+    .footer_gericht .numb1 {
+        font-size: 12px;
+    }
+
+
+    .footer_gericht .gericht_us .gerc {
+        width: 80%;
+        height: auto;
+        font-size: 22px;
+        margin-left: 20.5px;
+        margin-top: 22px;
+    }
+
+
+    .footer_gericht .gericht_us .best {
+        font-size: 12px;
+        margin-top: 32px;
+    }
+
+
+    .footer_gericht ul {
+        margin-left: 5px;
+    }
+
+    .messengers .fb1 {
+        width: 30%px;
+    }
+
+    .messengers .twitter1 {
+        width: 30%px;
+        margin-left: 10px;
+    }
+
+    .messengers .instagram1 {
+        width: 30%px;
+        margin-left: 7px;
+    }
+
+    .footer_gericht .work {
+        width: 95%;
+        font-size: 20px;
+        line-height: 120%;
+    }
+
+    .footer_gericht .monday {
+        font-size: 12px;
+    }
+
+    .footer_gericht .saturday {
+        font-size: 12px;
+    }
+
+}

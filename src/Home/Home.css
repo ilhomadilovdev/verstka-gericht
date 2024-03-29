@@ -1,0 +1,697 @@
+@font-face {
+    font-family: Bold;
+    src: url(../../public/fonts/CormorantUpright-Bold.ttf);
+
+}
+
+@font-face {
+    font-family: Open;
+    src: url(../../public/fonts/OpenSans_Condensed-Regular.ttf);
+
+}
+
+@font-face {
+    font-family: medium;
+    src: url(../../public/fonts/CormorantUpright-SemiBold.ttf);
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.big_cont {
+    background: #0C0B08;
+    margin-top: 46px;
+}
+
+.content2 {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #0C0B08;
+
+}
+
+.content2 .chase {
+    width: 231px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Bold;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 4%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: 127.5px;
+
+}
+
+.content2 .fine {
+    width: 453px;
+    height: 234px;
+    color: rgb(220, 202, 135);
+    font-family: Bold;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 4%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: 25px;
+
+
+}
+
+.content2 .tellus {
+    width: 453px;
+    height: 84px;
+    color: rgb(170, 170, 170);
+    font-family: Open, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 4%;
+    text-align: left;
+    margin-top: 32px;
+
+}
+
+.content2 .but-1 {
+
+    background: rgb(220, 202, 135);
+    width: 157px;
+    height: 44px;
+    color: rgb(12, 11, 8);
+    font-family: Bold, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 175%;
+    letter-spacing: 4%;
+    text-align: left;
+    padding: 8px 32px 8px 32px;
+    margin-top: 40px;
+
+
+}
+
+.content2 img {
+    width: 667px;
+    height: 736px
+}
+
+.content3 {
+    background: rgb(4, 4, 4);
+    opacity: 0.5;
+
+
+}
+
+.content3 .ctn {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 570px;
+
+}
+
+.ctn .right .about {
+    width: 252px;
+    height: 83px;
+
+    margin-left: 271px;
+    color: rgb(220, 202, 135);
+    font-family: medium, sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 3%;
+    text-align: right;
+    text-transform: capitalize;
+
+}
+
+.ctn .right .lorem {
+    width: 523px;
+    height: 84px;
+    color: rgb(170, 170, 170);
+    font-family: Open;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 4%;
+    margin-top: 49px;
+    text-align: right;
+
+}
+
+.ctn .but-2 {
+    width: 141px;
+    height: 44px;
+    background: rgb(220, 202, 135);
+    color: rgb(12, 12, 12);
+    font-family: Bold;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 175%;
+    letter-spacing: 4%;
+    text-align: left;
+    padding: 8px 32px;
+    margin-left: 380px;
+    margin-top: 40px;
+
+}
+
+.left {
+
+    margin-left: 152px;
+}
+
+.content3 .left .our {
+    width: 325px;
+    height: 83px;
+    color: rgb(220, 202, 135);
+    font-family: medium, sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 3%;
+    text-align: left;
+    text-transform: capitalize;
+
+}
+
+.content3 .left .adipising {
+    width: 523px;
+    height: 83px;
+    margin-top: 49px;
+    color: rgb(170, 170, 170);
+    font-family: Open, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 4%;
+    text-align: left;
+
+}
+
+.ctn .but-3 {
+    width: 141px;
+    height: 44px;
+    background: rgb(220, 202, 135);
+    color: rgb(12, 12, 12);
+    font-family: Bold;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 175%;
+    letter-spacing: 4%;
+    text-align: left;
+    padding: 8px 32px;
+    margin-top: 40px;
+
+}
+
+.content4 {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 128px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(4, 4, 4);
+    opacity: 0.4;
+
+
+}
+
+.content4 .left_2 .awards {
+    width: 220px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Bold;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 4%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: 118.5px;
+
+}
+
+.content4 .left_2 .our_ {
+    width: 320px;
+    height: 83px;
+    color: rgb(220, 202, 135);
+    font-family: medium, sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 3%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: 55px;
+
+}
+
+
+.content4 .qator-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 634px;
+    height: 94px;
+    margin-top: 64px;
+
+}
+
+.content4 .qator-1 .bib {
+    width: 79px;
+    height: 79px;
+    border: 4px solid rgb(161, 154, 154);
+    border-radius: 50%;
+
+}
+
+
+
+.content4 .qator-1 .satr1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 94px;
+
+
+}
+
+.content4 .qator-1 .bib_content {
+    margin-left: 32px;
+
+}
+
+.content4 .qator-1 .bib_con {
+
+    color: rgb(220, 202, 135);
+    font-family: Bold;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 4%;
+    text-align: left;
+    text-transform: capitalize;
+
+}
+
+.content4 .qator-1 .bib_lorem {
+    width: 190px;
+    height: 56px;
+    color: rgb(170, 170, 170);
+    font-family: medium;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 4%;
+    text-align: left;
+    margin-top: 8px;
+
+}
+
+
+.content4 .qator-1 .img1 {
+    width: 16.33px;
+    height: 28.62px;
+    box-sizing: border-box;
+    padding-left: 28px;
+    padding-top: 20px;
+}
+
+
+.content4 .qator-1 .rising {
+    width: 301px;
+    height: 94px;
+}
+
+
+.content4 .satr2 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.content4 .rising .satr2 .img2 {
+    width: 79px;
+    height: 79px;
+    border-radius: 50%;
+    border: 4px solid rgb(161, 154, 154);
+    padding-left: 7px;
+    padding-top: 20px;
+}
+
+
+.content4 .satr2 img {
+    width: 14px;
+    height: 29px;
+    box-sizing: border-box;
+}
+
+.content4 .sat-child {
+    width: 190px;
+    height: 94px;
+}
+
+.content4 .star {
+    width: 111px;
+    height: 30px;
+    color: rgb(220, 202, 135);
+    font-family: Bold;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 4%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+
+.content4 .star-lorem {
+    width: 190px;
+    height: 56px;
+    color: rgb(170, 170, 170);
+    font-family: medium;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 4%;
+    text-align: left;
+    margin-top: 8px;
+}
+
+.content4 .right_2 img {
+    width: 500px;
+    height: 691px;
+}
+
+
+@media screen and (max-width:1200px) {
+    .content2 {
+        width: 90%;
+    }
+
+    .content3 .ctn {
+        width: 90%;
+    }
+
+    .content4 {
+        width: 90%;
+    }
+}
+
+
+
+@media screen and (max-width:992px) {
+    .content2 {
+        width: 90%;
+    }
+
+    .content2 .d_flex {
+        width: 42%;
+    }
+
+    .content2 .fine {
+        width: 90%;
+        height: auto;
+        font-size: 70px;
+        line-height: 120%;
+    }
+
+    .content2 .tellus {
+        width: 90%;
+        height: auto;
+    }
+
+    .content2 img {
+        width: 50%;
+    }
+
+    .content3 .ctn {
+        width: 90%;
+    }
+
+    .ctn .right {
+        width: 45%;
+    }
+
+    .ctn .right .about {
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 120%;
+    }
+
+    .ctn .right .lorem {
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+    }
+
+    .ctn .but-2 {
+        margin-left: auto;
+        font-weight: 600;
+
+    }
+
+    /* left css */
+
+
+    .left {
+        width: 45%;
+        margin-left: 50px;
+    }
+
+    .content3 .left .our {
+        width: 90%;
+        height: auto;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 120%;
+    }
+
+    .content3 .left .adipising {
+        width: 90%;
+        height: auto;
+    }
+
+    .ctn .but-3 {
+        font-weight: 600;
+    }
+
+
+
+
+
+    .content4 {
+        width: 90%;
+    }
+
+    .content4 .left_2 {
+        width: 45%;
+    }
+
+    .content4 .right_2 {
+        width: 50%;
+        height: auto;
+    }
+
+    .content4 .right_2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .content4 .left_2 .awards {
+        width: 90%;
+        height: auto;
+        font-size: 18px;
+        margin-top: 8.5px;
+        line-height: 120%;
+    }
+
+    .content4 .left_2 .our_ {
+        width: 90%;
+        font-size: 48px;
+        line-height: 120%;
+    }
+
+
+    .content4 .qator-1 {
+        display: block;
+        margin-top: 34px;
+        width: 90%;
+        height: auto;
+    }
+
+
+
+    .content4 .qator-1 .satr1 {
+        /* display: flex;
+    justify-content: space-between; */
+        /* align-items: center;
+    text-align: center; */
+        width: 90%;
+        height: auto;
+
+    }
+
+    .content4 .qator-1 .bib_content {
+        width: 60%;
+        height: auto;
+    }
+
+    .content4 .qator-1 .bib_con {
+        width: 92%;
+        font-size: 20px;
+        font-weight: 650;
+        line-height: 120%;
+    }
+
+    .content4 .qator-1 .bib_lorem {
+        width: 90%;
+        height: 55px;
+    }
+
+
+    .content4 .qator-1 .img1 {
+        width: 25%;
+        height: 28.62px;
+    }
+
+
+    .content4 .qator-1 .rising {
+        width: 90%;
+        margin-top: 8px;
+        height: auto;
+    }
+
+
+    .content4 .satr2 {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+    }
+
+
+
+
+
+    .content4 .sat-child {
+        width: 60%;
+        height: auto;
+    }
+
+    .content4 .star {
+        width: 92%;
+        font-size: 20px;
+        font-weight: 650;
+        line-height: 120%;
+    }
+
+
+    .content4 .star-lorem {
+        width: 90%;
+        height: 55px;
+    }
+
+    .content4 .right_2 img {
+        width: 90%;
+        height: auto;
+        margin-top: 40px;
+       
+    }
+}
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .content2 {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .content2 .d_flex {
+        width: 100%;
+    }
+
+    .content2 .chase {
+        width: 95%;
+    }
+
+    .content2 .fine {
+        width: 95%;
+        height: auto;
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 120%;
+    }
+
+    .content2 img {
+        width: 100%;
+        height: auto;
+        margin-top: 45px;
+    }
+
+    .content3 .ctn {
+        margin-top: 90px;
+    }
+
+
+    .content4 {
+        width: 100%;
+        display: block;
+    }
+
+    .content4 .left_2 {
+        width: 100%;
+    }
+
+    .content4 .right_2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .content4 .right_2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .content4 .qator-1 .bib_con {
+        width: 92%;
+        font-size: 20px;
+        font-weight: 650;
+        line-height: 120%;
+    }
+
+
+    .content4 .right_2 img {
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+       
+    }
+
+}
+
+@media screen and (max-width:480px) {}

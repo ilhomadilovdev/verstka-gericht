@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.content1 {
+    width: 100%;
+    background: #0C0B08;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.content1 .Gericht {
+    position: absolute;
+    width: 199px;
+    height: 57px;
+    color: rgb(255, 255, 255);
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 4%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 28px;
+
+}
+
+
+.content1 li {
+    list-style: none;
+}
+
+.content1 .menu {
+    width: 409px;
+    height: 28px;
+    margin-top: 46px;
+    margin-left: 435px;
+    display: flex;
+    justify-content: space-between;
+    width: 409px;
+    height: 28px;
+}
+
+.content1 .nav_item1 {
+    width: 48px;
+    height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.content1 Link {
+    list-style: none;
+}
+
+.content1 .nav_item2 {
+    width: 47px;
+    height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 4%;
+    margin-left: 12px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+
+
+
+
+.content1 .registr {
+    width: 171px;
+    height: 28px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 175%;
+    letter-spacing: 5%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: 46.5px;
+}
+
+.content1 .regis_book {
+    width: 93px;
+    height: 28px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 175%;
+    letter-spacing: 5%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: 46.5px;
+}
+
+
+@media screen and (max-width:1200px) {
+    .content1 {
+        width: 1198px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .content1 .Gericht {
+        width: 100px;
+        font-size: 30px;
+        margin-top: 40px;
+    }
+
+    .content1 .menu {
+        width: 150px;
+        margin-left: 300px;  
+    }
+
+    .content1 .registr {
+        height: 50px;
+        margin-left: 50px;  
+    }
+
+    .content1 .regis_book {
+        margin-right: auto;
+        margin-left: 50px;
+    }
+}
+
+@media screen  and (max-width:992px) {
+    .content1 {
+        width: 90%;
+    }
+
+    .content1 .Gericht {
+        width: 100px;
+        font-size: 28px;
+        margin-top: 40px;
+    }
+
+    .content1 .menu {
+        width: 150px;
+        margin-left: 300px;  
+    }
+
+    .content1 .registr {
+        height: 50px;
+        margin-left: 50px;
+    }
+
+    .content1 .regis_book {
+        margin-right: auto;
+        margin-left: 50px;
+    }
+}
+
+
+@media screen  and (max-width:768px) {
+    .content1 {
+        width: 750px;
+    }
+
+    .content1 .Gericht {
+        width: 100px;
+        font-size: 22px;
+        font-weight: 400;
+        margin-top: 40px;
+    }
+
+    .content1 .menu {
+        width: 150px;
+        margin-left: 150px;
+    }
+
+    .content1 .registr {
+        height: 50px;
+        margin-left: 50px;
+    }
+
+    .content1 .regis_book {
+        margin-right: auto;
+        margin-left: 50px;
+    }
+}
+
+@media screen  and (max-width:480px) {
+    .content1 {
+        width: 470px;
+    }
+
+    .content1 .Gericht {
+        width: 40px;
+        height: 40px;
+        font-weight: 200;
+        font-size: 18px;
+        line-height: 60%;
+        margin-top: 55px;
+    }
+
+    .content1 .menu {
+        width: 100px;
+        margin-left: 50px;
+    }
+    .content1 .nav_item1 ,.content1 .nav_item2{
+        font-size: 14px;
+        line-height: 120%;
+        font-weight: 120;
+    }
+
+    .content1 .registr {
+        width: 60px;
+        height: 50px;
+        margin-left: 40px;
+        font-size: 14px;
+        line-height: 120%;
+        font-weight: 120;
+    }
+
+    .content1 .regis_book {
+        width: 60px;
+        margin-right: auto;
+        margin-left: 40px;
+        font-weight: 120;
+        font-size: 14px;
+        line-height: 120%;
+    }
+}
